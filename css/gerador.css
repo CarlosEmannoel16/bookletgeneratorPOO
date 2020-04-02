@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #131616;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.todo{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.titulo{
+    font-family: 'Asap', sans-serif;
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 50px;
+}
+.headerTop{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/fundo.jpg);
+}
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 840px;
+    margin-top: 100px;
+    background-color: #ffffff;
+
+}
+.formulario{
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+}
+.formulario label{
+    font-size: 11pt;
+    color: #131616;
+    font-family: 'Asap', sans-serif;
+    margin: 0;
+}
+.formulario input{
+    width: 340px;
+    height: 40px;
+    border: none;
+    box-shadow: 1px 0px 2px #00000050;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.btn{
+    background-color: #f0c808;
+}
